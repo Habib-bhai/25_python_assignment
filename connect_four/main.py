@@ -122,8 +122,6 @@ while not game_over:
 						label = myfont.render("Player 1 wins!!", 1, RED)
 						screen.blit(label, (40,10))
 						game_over = True
-
-
 			# # Ask for Player 2 Input
 			else:				
 				posx = event.pos[0]
